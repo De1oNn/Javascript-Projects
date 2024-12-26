@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo-list</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>TODO LIST</h1>
+        <div class="whole">
+            <div class="read">
+                <div id="read">To Read</div>
+                <div class="read-card">
+                    <p id="plus">+</p>
+                    <p id="add">Add Card</p>
+                </div>
+            </div>
+            <div class="watch">
+                <div id="watch">To Watch</div>
+                <div class="read-card">
+                    <p id="plus">+</p>
+                    <p id="add">Add Card</p>
+                </div>
+            </div>
+            <div class="buy">
+                <div id="buy">To Buy</div>
+                <div class="read-card">
+                    <p id="plus">+</p>
+                    <p id="add">Add Card</p>
+                </div>
+            </div>
+            <div class="done">
+                <div id="done">Done</div>
+                <div class="task-list" id="done-list"></div>
+            </div>
+        </div>
+        <div class="popup-outside">
+            <div class="popup">
+                <h1>Add task</h1>
+                <p class="title">Title</p>
+                <input class="box1" type="text">
+                <p class="title">Description</p>
+                <input class="box2" type="text">
+                <p class="title">Status</p>
+                <input class="box3" type="text">
+                <p class="title">Priority</p>
+                <input class="box4" type="text">
+                <button class="button">Add Task</button>
+                    <!-- <p class="button">Add Task</p> -->
+                <button class="close">X</button>
+            </div>
+        </div>
+    </body>
+    </html>
