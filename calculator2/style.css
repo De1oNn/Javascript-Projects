@@ -11,116 +11,168 @@ body {
 }
 .outside {
     background-color:rgb(252, 162, 52);
-    height: 60%;
-    width: 25%;
+    height: 70%;
+    width: 35%;
     border: 10px solid black;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
 #one {
     display: grid;
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid yellow;
+    border: 4px solid rgb(23, 23, 23);
     border-radius: 100%;
-    height: 100px ;
-    width: 100px;
+    height: 120px ;
+    width: 120px;
     margin: auto;
-    background-color: blue;
-}
-.box1{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    font-size: 60px;
 }
 #two {
     display: grid;
     grid-column: 3/ 4;
-    grid-row: 1/ 2;
+    grid-row: 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #three {
     display: grid;
     grid-column: 4 / 5;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #four {
     display: grid;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #five {
     display: grid;
     grid-column: 3/ 4;
-    grid-row: 2/ 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#six {
-    display: grid;
-    grid-column: 4/ 5;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#seven {
-    display: grid;
-    grid-column: 2 / 3;
     grid-row: 3/ 4;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
-#eight {
-    display: grid;
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#nine {
+#six {
     display: grid;
     grid-column: 4/ 5;
     grid-row: 3 / 4;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
-#zero {
+#seven {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4/ 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
+}
+#eight {
     display: grid;
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
-#clear {
+#nine {
     display: grid;
-    grid-column: 4 / 5;
+    grid-column: 4/ 5;
     grid-row: 4 / 5;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
+}
+#zero {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
+}
+#clear {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #plus {
     display: grid;
@@ -129,6 +181,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #minus {
     display: grid;
@@ -137,6 +195,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #multiply {
     display: grid;
@@ -145,6 +209,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
 }
 #divide {
     display: grid;
@@ -153,4 +223,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
+}
+#dot {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 4px solid rgb(23, 23, 23);
+    border-radius: 100%;
+    height: 120px ;
+    width: 120px;
+    margin: auto;
+}
+#space {
+    display: grid;
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    padding-left: 15%;
+    font-size: 60px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
 }
