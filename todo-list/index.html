@@ -8,59 +8,64 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <h1>TODO LIST</h1>
-        <div class="whole">
-            <div class="read">
-                <div id="read">To Read</div>
-                <div class="read-card">
-                    <p id="plus">+</p>
-                    <p id="add">Add Card</p>
+        <div class="container">
+            <div class="content">
+                <h1>TODO LIST</h1>
+                <h1>TODO LIST</h1>
+            </div>
+            <div class="whole">
+                <div class="read">
+                    <div id="read">To Read</div>
+                    <div class="read-card">
+                        <p id="plus">+</p>
+                        <p id="add">Add Card</p>
+                    </div>
+                </div>
+                <div class="watch">
+                    <div id="watch">To Watch</div>
+                    <div class="read-card">
+                        <p id="plus">+</p>
+                        <p id="add">Add Card</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <div id="buy">To Buy</div>
+                    <div class="read-card">
+                        <p id="plus">+</p>
+                        <p id="add">Add Card</p>
+                    </div>
+                </div>
+                <div class="done">
+                    <div id="done">Done</div>
+                    <div class="task-list" id="done-list"></div>
                 </div>
             </div>
-            <div class="watch">
-                <div id="watch">To Watch</div>
-                <div class="read-card">
-                    <p id="plus">+</p>
-                    <p id="add">Add Card</p>
-                </div>
-            </div>
-            <div class="buy">
-                <div id="buy">To Buy</div>
-                <div class="read-card">
-                    <p id="plus">+</p>
-                    <p id="add">Add Card</p>
-                </div>
-            </div>
-            <div class="done">
-                <div id="done">Done</div>
-                <div class="task-list" id="done-list"></div>
-            </div>
-        </div>
-        <div class="popup-outside">
-            <div class="popup">
-                <h1>Add task</h1>
-                <p class="title">Title</p>
-                <input class="box1" type="text" id="taskTitle">
-                <p class="title">Description</p>
-                <input class="box2" type="text" id="taskDescription">
-                <p class="title">Status</p>
-  
-                <select name="" id="status">
-                    <option value="To Read">To Read</option>
-                    <option value="To Watch">To Watch</option>
-                    <option value="To Buy">To Buy</option>
-                    <option value="Done">Done</option>
-                </select>
-                
-                <p class="title">Priority</p>
-                <select name="" id="property">
-                    <option value="Must!!">Must!!</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Low">Low</option>
-                </select>
+            <div class="popup-outside">
+                <div class="popup">
+                    <h1>Add task</h1>
+                    <p class="title">Title</p>
+                    <input class="box1" type="text" id="taskTitle">
+                    <p class="title">Description</p>
+                    <input class="box2" type="text" id="taskDescription">
+                    <p class="title">Status</p>
+    
+                    <select name="" id="status">
+                        <option value="To Read">To Read</option>
+                        <option value="To Watch">To Watch</option>
+                        <option value="To Buy">To Buy</option>
+                        <option value="Done">Done</option>
+                    </select>
+                    
+                    <p class="title">Priority</p>
+                    <select name="" id="property">
+                        <option value="Must!!">Must!!</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
 
-                <button class="button">Add Task</button>
-                <button class="close">X</button>
+                    <button class="button">Add Task</button>
+                    <button class="close">X</button>
+                </div>
             </div>
         </div>
     </body>
