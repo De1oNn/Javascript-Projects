@@ -51,7 +51,7 @@ document.querySelector(".button").addEventListener("click", function() {
         alert("Please fill in all fields.");
     }     
 });
-
+    // shine task iig busad section luu shiljuuleh function
 function addDragFunctionality(taskCard) {
     taskCard.setAttribute('draggable', true);
 
