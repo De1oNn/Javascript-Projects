@@ -15,6 +15,7 @@ document.querySelector(".button").addEventListener("click", function() {
     const priority = document.querySelector("#property").value; 
     
     if (title && description && status && priority) {
+        //shine element neeh
         const newTaskDiv = document.createElement("div");
         newTaskDiv.classList.add("task-card");
         newTaskDiv.id = "task" + Date.now(); 
@@ -79,3 +80,18 @@ function addDragFunctionality(taskCard) {
     });
 }
 document.querySelectorAll('.task-card').forEach(addDragFunctionality);
+
+
+// close button
+const newTaskDiv = document.querySelector(".task-card");
+const newdeletebutton = document.createElement("li");
+
+newdeletebutton.classList.add("close-button");
+
+newTaskDiv.append("newdeletebutton")
+
+newdeletebutton.innerText = "hello"
+console.log(newdeletebutton);
+
+
+
