@@ -83,15 +83,13 @@ document.querySelectorAll('.task-card').forEach(addDragFunctionality);
 
 
 // close button
-const newTaskDiv = document.querySelector(".task-card");
-const newdeletebutton = document.createElement("li");
+// const newTaskDiv = document.querySelector(".task-card");
+// const newdeletebutton = document.createElement("li");
 
-newdeletebutton.classList.add("close-button");
+// newdeletebutton.classList.add("close-button");
 
-newTaskDiv.append("newdeletebutton")
+// newTaskDiv.append("newdeletebutton")
 
-newdeletebutton.innerText = "hello"
-console.log(newdeletebutton);
-
-
+// newdeletebutton.innerText = "hello"
+// console.log(newdeletebutton);
 

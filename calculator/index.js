@@ -12,5 +12,5 @@
     }
     catch(error){
         display.value = "Error";
-    }
+    } 
  }
